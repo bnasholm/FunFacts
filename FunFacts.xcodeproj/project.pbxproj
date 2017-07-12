@@ -12,6 +12,7 @@
 		60E2FE471F15DB7700945B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E2FE451F15DB7700945B2A /* Main.storyboard */; };
 		60E2FE491F15DB7700945B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E2FE481F15DB7700945B2A /* Assets.xcassets */; };
 		60E2FE4C1F15DB7700945B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E2FE4A1F15DB7700945B2A /* LaunchScreen.storyboard */; };
+		60E2FE541F15F37700945B2A /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E2FE531F15F37700945B2A /* FactProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		60E2FE481F15DB7700945B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60E2FE4B1F15DB7700945B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60E2FE4D1F15DB7700945B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E2FE531F15F37700945B2A /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				60E2FE411F15DB7700945B2A /* AppDelegate.swift */,
 				60E2FE431F15DB7700945B2A /* ViewController.swift */,
+				60E2FE531F15F37700945B2A /* FactProvider.swift */,
 				60E2FE451F15DB7700945B2A /* Main.storyboard */,
 				60E2FE481F15DB7700945B2A /* Assets.xcassets */,
 				60E2FE4A1F15DB7700945B2A /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				60E2FE441F15DB7700945B2A /* ViewController.swift in Sources */,
 				60E2FE421F15DB7700945B2A /* AppDelegate.swift in Sources */,
+				60E2FE541F15F37700945B2A /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
