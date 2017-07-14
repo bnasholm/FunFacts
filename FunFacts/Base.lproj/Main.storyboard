@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did You Know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eex-90-cP5">
-                                <rect key="frame" x="36" y="159" width="121" height="22"/>
+                                <rect key="frame" x="36" y="160" width="121" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="0.50030259683098588" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -51,17 +51,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="fWc-cr-GrL" firstAttribute="top" secondItem="eex-90-cP5" secondAttribute="bottom" constant="120" id="DJx-Ik-vW0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fWc-cr-GrL" secondAttribute="trailing" constant="20" id="GJ7-Rx-23h"/>
                             <constraint firstItem="GZh-Fl-Elg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="L3O-Fx-0qL"/>
                             <constraint firstItem="eex-90-cP5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Sq7-2N-VTI"/>
                             <constraint firstItem="fWc-cr-GrL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UIj-Yy-mc0"/>
+                            <constraint firstItem="fWc-cr-GrL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="281" id="bSR-cn-IED"/>
+                            <constraint firstItem="eex-90-cP5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="140" id="e7j-WO-6xM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GZh-Fl-Elg" secondAttribute="bottom" constant="80" id="mVx-An-nEf"/>
                             <constraint firstItem="fWc-cr-GrL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="wz2-sc-Ehi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GZh-Fl-Elg" secondAttribute="trailing" constant="20" id="ybf-Sb-Dbi"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="FunFactButton" destination="GZh-Fl-Elg" id="50n-Wn-zGU"/>
                         <outlet property="FunFactLabel" destination="fWc-cr-GrL" id="ju6-SV-Wr2"/>
                     </connections>
                 </viewController>
